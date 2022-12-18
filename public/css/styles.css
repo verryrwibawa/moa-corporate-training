@@ -1,0 +1,12 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+section {
+    height: 100vh;
+}
+
+bg-light-purple {
+    background-color: #f6f1ff;
+}
