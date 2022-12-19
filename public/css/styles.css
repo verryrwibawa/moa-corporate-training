@@ -1,12 +1,54 @@
+/* General */
 * {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
 }
 
 section {
-    height: 100vh;
+    padding: 5rem 0;
+    background-color: #fbf9ff;
 }
 
-bg-light-purple {
+.bg-light-purple {
     background-color: #f6f1ff;
+}
+
+.text-title {
+    font-size: 2.25rem;
+}
+
+.text-purple {
+    color: rgba(75, 0, 224, 0.91);
+}
+
+.text-gold {
+    color: rgba(239, 161, 23, 1);
+}
+
+/* Benefits */
+.circle-background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ccb2ff78;
+    opacity: 0.47;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+.benefit-image {
+    position: relative;
+    height: 15rem;
+    width: 15rem;
+}
+
+/* Clients */
+.clients-logo-wrapper {
+    padding: 5rem 4rem;
+    gap: 4rem;
+}
+.client-logo-image {
+    height: 7rem;
+    width: auto;
 }
