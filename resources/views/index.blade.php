@@ -2,29 +2,61 @@
  
 @section('container')
     <!-- Hero -->
-    <section class="p-0">
-    @include('partials.navbar')
-        <div class="container">
-            <h1>Hero</h1>
-        </div>
+    <section id="hero" class="p-0">
+    @include('partials.navbar') 
+        <div class="bg-img">
+          <div class="container pt-5">
+            <div class="hero-text">
+              <span style="font-weight: bold">Tingkatkan</span> <br />
+              <span style="font-weight: 400">Kinerja Anda Bersama Kami</span>
+            </div>
+      
+            <div class="hero-subtext">
+              <p>
+                Corporate Training yang diselenggarakan oleh Amikom Center merupakan <br />
+                program pelatihan yang ditujukan untuk karyawan di perusahaan atau organisasi.
+              </p>
+            </div>
+      
+            <div class="hero-btn">
+              <a href="">
+                Lihat Program
+                <i class="fa-solid fa-chevron-right"></i>
+              </a>
+            </div>
+      
+            <div class="hero-link d-flex justify-content-between">
+              <div class="link-item">
+                <a href="#">
+                  <span class="fa-regular fa-envelope"></span>
+                </a>
+              </div>
+              <div class="link-item">
+                <a href="#">
+                  <span class="fa-brands fa-whatsapp"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div> 
     </section>
 
     <!-- Corporate Training -->
-    <section>
+    <section id="about">
         <div class="container">
             <h1>Corporate Training</h1>
         </div>
     </section>
 
     <!-- Program Kami -->
-    <section>
+    <section id="programs">
         <div class="container">
             <h1>Program Kami</h1>
         </div>
     </section>
 
     <!-- Benefits -->
-    <section class="bg-light-purple">
+    <section class="bg-light-purple" id="benefits">
         <div class="container">
             <h1 class="text-title text-center text-gold">
                 <b class="text-purple">Benefit</b> Yang Akan<br>Anda Dapatkan
@@ -73,7 +105,7 @@
     </section>
 
     <!-- Clients -->
-    <section>
+    <section id="clients">
         <div class="container">
             <div class="title text-center">   
                 <h1 class="text-title text-center text-gold">
