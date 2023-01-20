@@ -13,10 +13,10 @@
           <a class="nav-link" href="/#hero">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/#about">About</a>
+          <a class="nav-link" href="/#def">About</a>
         </li>  
         <li class="nav-item">
-          <a class="nav-link" href="/#programs">Program</a>
+          <a class="nav-link" href="/#prog">Program</a>
         </li>  
         <li class="nav-item">
           <a class="nav-link" href="/#benefits">Benefit</a>
@@ -25,10 +25,10 @@
           <a class="nav-link" href="/#clients">Klien</a>
         </li>  
         <li class="nav-item">
-          <a class="nav-link" href="/#testimonials">Testimoni</a>
+          <a class="nav-link" href="/#testi">Testimoni</a>
         </li>  
         <li class="nav-item">
-          <a class="nav-link" href="/#consultation">Konsultasi</a>
+          <a class="nav-link" href="/#konsul">Konsultasi</a>
         </li>  
       </ul> 
     </div> 
