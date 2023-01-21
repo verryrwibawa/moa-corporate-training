@@ -7,6 +7,15 @@
       <div class="row justify-content-center">
         <div class="col-md-7">
           <main class="form-signin w-100 mx-auto">
+
+            {{-- LOGIN GAGAL --}}
+            @if(session()->has('email'))
+              <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                {{ session('email') }}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div>
+            @endif
+
             <form action="/login" method="POST">
               @csrf
               {{-- <img class="mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57"> --}}
